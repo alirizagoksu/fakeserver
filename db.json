@@ -8,7 +8,1580 @@
 	"name": "Allianz TR packages",
 	"overview": "This collection contains our selected Swift packages for DigitAll iOS projects.",
 	"packages": [
-	  	{
+		{
+		"url": "https://sdlc.allianz.com.tr/stash/scm/mob/firebase-ios-sdk.git",
+		"versions": [{
+			"defaultToolsVersion": "5.9",
+			"manifests": {
+				"5.9": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "12.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.15"
+					}, {
+						"name": "tvos",
+						"version": "13.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCore",
+						"targets": ["FirebaseCore"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCore",
+						"name": "FirebaseCore"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.9"
+				}
+			},
+			"version": "11.6.0"
+		}, {
+			"defaultToolsVersion": "5.9",
+			"manifests": {
+				"5.9": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "12.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.15"
+					}, {
+						"name": "tvos",
+						"version": "13.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCore",
+						"targets": ["FirebaseCore"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCore",
+						"name": "FirebaseCore"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.9"
+				}
+			},
+			"summary": "",
+			"version": "11.5.0"
+		},
+		{
+			"defaultToolsVersion": "5.9",
+			"manifests": {
+				"5.9": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "12.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.15"
+					}, {
+						"name": "tvos",
+						"version": "13.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCore",
+						"targets": ["FirebaseCore"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCore",
+						"name": "FirebaseCore"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.9"
+				}
+			},
+			"version": "11.4.0"
+		}, {
+			"defaultToolsVersion": "5.7.1",
+			"manifests": {
+				"5.7.1": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "11.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.13"
+					}, {
+						"name": "tvos",
+						"version": "12.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsSwift",
+						"targets": ["FirebaseAnalyticsSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabaseSwift",
+						"targets": ["FirebaseDatabaseSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreSwift",
+						"targets": ["FirebaseFirestoreSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessagingSwift-Beta",
+						"targets": ["FirebaseInAppMessagingSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfigSwift",
+						"targets": ["FirebaseRemoteConfigSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI-Preview",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsSwiftTarget",
+						"name": "FirebaseAnalyticsSwiftTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDatabaseSwift",
+						"name": "FirebaseDatabaseSwift"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreSwiftTarget",
+						"name": "FirebaseFirestoreSwiftTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingSwift",
+						"name": "FirebaseInAppMessagingSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseRemoteConfigSwift",
+						"name": "FirebaseRemoteConfigSwift"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.7.1"
+				}
+			},
+			"summary": "",
+			"version": "10.29.0"
+		}, {
+			"defaultToolsVersion": "5.7.1",
+			"manifests": {
+				"5.7.1": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "11.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.13"
+					}, {
+						"name": "tvos",
+						"version": "12.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsSwift",
+						"targets": ["FirebaseAnalyticsSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabaseSwift",
+						"targets": ["FirebaseDatabaseSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreSwift",
+						"targets": ["FirebaseFirestoreSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessagingSwift-Beta",
+						"targets": ["FirebaseInAppMessagingSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfigSwift",
+						"targets": ["FirebaseRemoteConfigSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI-Preview",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsSwiftTarget",
+						"name": "FirebaseAnalyticsSwiftTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDatabaseSwift",
+						"name": "FirebaseDatabaseSwift"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreSwiftTarget",
+						"name": "FirebaseFirestoreSwiftTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingSwift",
+						"name": "FirebaseInAppMessagingSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseRemoteConfigSwift",
+						"name": "FirebaseRemoteConfigSwift"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.7.1"
+				}
+			},
+			"version": "10.28.1"
+		}, {
+			"defaultToolsVersion": "5.7.1",
+			"manifests": {
+				"5.7.1": {
+					"minimumPlatformVersions": [{
+						"name": "ios",
+						"version": "11.0"
+					}, {
+						"name": "maccatalyst",
+						"version": "13.0"
+					}, {
+						"name": "macos",
+						"version": "10.13"
+					}, {
+						"name": "tvos",
+						"version": "12.0"
+					}, {
+						"name": "watchos",
+						"version": "7.0"
+					}],
+					"packageName": "Firebase",
+					"products": [{
+						"name": "FirebaseAnalytics",
+						"targets": ["FirebaseAnalyticsTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsOnDeviceConversion",
+						"targets": ["FirebaseAnalyticsOnDeviceConversionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsSwift",
+						"targets": ["FirebaseAnalyticsSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAnalyticsWithoutAdIdSupport",
+						"targets": ["FirebaseAnalyticsWithoutAdIdSupportTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppCheck",
+						"targets": ["FirebaseAppCheck"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAppDistribution-Beta",
+						"targets": ["FirebaseAppDistributionTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuth",
+						"targets": ["FirebaseAuth"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseAuthCombine-Community",
+						"targets": ["FirebaseAuthCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseCrashlytics",
+						"targets": ["FirebaseCrashlytics"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabase",
+						"targets": ["FirebaseDatabase"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDatabaseSwift",
+						"targets": ["FirebaseDatabaseSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseDynamicLinks",
+						"targets": ["FirebaseDynamicLinksTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestore",
+						"targets": ["FirebaseFirestoreTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreCombine-Community",
+						"targets": ["FirebaseFirestoreCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFirestoreSwift",
+						"targets": ["FirebaseFirestoreSwiftTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctions",
+						"targets": ["FirebaseFunctions"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseFunctionsCombine-Community",
+						"targets": ["FirebaseFunctionsCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessaging-Beta",
+						"targets": ["FirebaseInAppMessagingTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInAppMessagingSwift-Beta",
+						"targets": ["FirebaseInAppMessagingSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseInstallations",
+						"targets": ["FirebaseInstallations"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMLModelDownloader",
+						"targets": ["FirebaseMLModelDownloader"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseMessaging",
+						"targets": ["FirebaseMessaging"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebasePerformance",
+						"targets": ["FirebasePerformanceTarget"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfig",
+						"targets": ["FirebaseRemoteConfig"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseRemoteConfigSwift",
+						"targets": ["FirebaseRemoteConfigSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorage",
+						"targets": ["FirebaseStorage"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseStorageCombine-Community",
+						"targets": ["FirebaseStorageCombineSwift"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}, {
+						"name": "FirebaseVertexAI-Preview",
+						"targets": ["FirebaseVertexAI"],
+						"type": {
+							"library": ["automatic"]
+						}
+					}],
+					"targets": [{
+						"moduleName": "FirebaseAnalyticsOnDeviceConversionTarget",
+						"name": "FirebaseAnalyticsOnDeviceConversionTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsSwiftTarget",
+						"name": "FirebaseAnalyticsSwiftTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsTarget",
+						"name": "FirebaseAnalyticsTarget"
+					}, {
+						"moduleName": "FirebaseAnalyticsWithoutAdIdSupportTarget",
+						"name": "FirebaseAnalyticsWithoutAdIdSupportTarget"
+					}, {
+						"moduleName": "FirebaseAppCheck",
+						"name": "FirebaseAppCheck"
+					}, {
+						"moduleName": "FirebaseAppDistributionTarget",
+						"name": "FirebaseAppDistributionTarget"
+					}, {
+						"moduleName": "FirebaseAuth",
+						"name": "FirebaseAuth"
+					}, {
+						"moduleName": "FirebaseAuthCombineSwift",
+						"name": "FirebaseAuthCombineSwift"
+					}, {
+						"moduleName": "FirebaseCrashlytics",
+						"name": "FirebaseCrashlytics"
+					}, {
+						"moduleName": "FirebaseDatabase",
+						"name": "FirebaseDatabase"
+					}, {
+						"moduleName": "FirebaseDatabaseSwift",
+						"name": "FirebaseDatabaseSwift"
+					}, {
+						"moduleName": "FirebaseDynamicLinksTarget",
+						"name": "FirebaseDynamicLinksTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreCombineSwift",
+						"name": "FirebaseFirestoreCombineSwift"
+					}, {
+						"moduleName": "FirebaseFirestoreSwiftTarget",
+						"name": "FirebaseFirestoreSwiftTarget"
+					}, {
+						"moduleName": "FirebaseFirestoreTarget",
+						"name": "FirebaseFirestoreTarget"
+					}, {
+						"moduleName": "FirebaseFunctions",
+						"name": "FirebaseFunctions"
+					}, {
+						"moduleName": "FirebaseFunctionsCombineSwift",
+						"name": "FirebaseFunctionsCombineSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingSwift",
+						"name": "FirebaseInAppMessagingSwift"
+					}, {
+						"moduleName": "FirebaseInAppMessagingTarget",
+						"name": "FirebaseInAppMessagingTarget"
+					}, {
+						"moduleName": "FirebaseInstallations",
+						"name": "FirebaseInstallations"
+					}, {
+						"moduleName": "FirebaseMLModelDownloader",
+						"name": "FirebaseMLModelDownloader"
+					}, {
+						"moduleName": "FirebaseMessaging",
+						"name": "FirebaseMessaging"
+					}, {
+						"moduleName": "FirebasePerformanceTarget",
+						"name": "FirebasePerformanceTarget"
+					}, {
+						"moduleName": "FirebaseRemoteConfig",
+						"name": "FirebaseRemoteConfig"
+					}, {
+						"moduleName": "FirebaseRemoteConfigSwift",
+						"name": "FirebaseRemoteConfigSwift"
+					}, {
+						"moduleName": "FirebaseStorage",
+						"name": "FirebaseStorage"
+					}, {
+						"moduleName": "FirebaseStorageCombineSwift",
+						"name": "FirebaseStorageCombineSwift"
+					}, {
+						"moduleName": "FirebaseVertexAI",
+						"name": "FirebaseVertexAI"
+					}],
+					"toolsVersion": "5.7.1"
+				}
+			},
+			"version": "10.28.0"
+		}]
+	}, 
+	   	{
 		"url": "https://sdlc.allianz.com.tr/stash/scm/mob/insider-ios-sdk.git",
 		"versions": [{
 			"defaultToolsVersion": "5.3",
